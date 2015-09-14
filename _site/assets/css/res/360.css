@@ -1,0 +1,149 @@
+nav ul li
+{
+  font-size:9px;
+  padding: 4px;
+}
+
+div#header
+{
+  min-height: 200px;
+}
+
+
+div#header img.logo
+{
+  width:90vw;
+}
+
+div#header div#search
+{
+  transition: 0.4s all;
+}
+
+div#header button
+{
+  margin-top: 20px;
+  width: 80vw;
+  height: 60px;
+}
+
+section button,
+section.media button
+{
+  width: 100%;
+}
+
+div#header ul#hero
+{
+  display: none;
+}
+
+div#header div#search img
+{
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+}
+
+div#header div#search.expanded
+{
+  background-color: #FFFFFF;
+}
+
+div#header div#search.expanded img
+{
+  display: none;
+}
+
+div#header div#search.expanded img.blueSearch
+{
+  display: block;
+  float: right;
+  
+  width: 40px;
+  height: 40px;
+  
+  margin-top: -2px;
+}
+
+div#header div#search.expanded input
+{
+  color: #00B4CC;
+  border-color: #00B4CC;
+  margin-left: 5px;
+}
+
+div#header.small
+{
+  min-height: 150px;
+}
+
+div.small#header h2
+{
+  top: calc(14vh + 7vw);
+  font-size: 20px;
+}
+
+
+.grid figure details,
+.grid figure
+{
+  width: calc(100vw/3);
+  height: calc(100vw/3);
+}
+
+section h1.right
+{
+  text-indent: 0px;
+}
+
+section
+{
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.grid
+{
+  width: 100vw;
+  margin-left: -18px;
+}
+
+section div
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 290px;
+}
+
+section div#title
+{
+  width:100%;
+  display: block;
+}
+
+section div button
+{
+  width: 100%;
+}
+
+section .grid.small
+{
+  display: none;
+}
+
+section article img
+{
+  display: none;
+}
+
+section.social > div
+{
+  display: none;
+}
+
+div.teamsContainer
+{
+  width: 90vw;
+}

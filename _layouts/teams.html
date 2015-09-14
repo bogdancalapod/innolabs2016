@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  <title> {% if page.title %} {{ page.title }} | {% endif %} Innovation Labs 2016</title>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/css/res/1440.css" media="screen and (max-width:1440px)"/>
+  <link rel="stylesheet" href="/assets/css/res/1024.css" media="screen and (max-width:1024px)"/>
+  <link rel="stylesheet" href="/assets/css/res/768.css" media="screen and (max-width:768px)"/>
+  <link rel="stylesheet" href="/assets/css/res/360.css" media="screen and (max-width:480px)"/>
+  <link rel="stylesheet" href="/assets/css/font/font.css" />
+  
+  {% if page.customCSS == 'true' %}
+    <link rel="stylesheet" href="/css/pages/{{ page.title }}.css">
+  {% endif %}
+  
+</head>
+<body>
+    {% include layout/smallHeader.html %}
+    
+    {{ page.title }}
+  
+  <!--JS-->
+  <script src="/assets/js/ui/general.js"></script>
+  <script src="/assets/js/lib/ajaxRequest.js"></script>
+  <script src="/assets/js/data/search/search.js"></script>
+  
+<footer>
+  <img src="{{ site.data.var.img }}/logo/blue.svg">
+  <img src="{{ site.data.var.icons }}/footer.svg">
+</footer>
+</body>
+</html>

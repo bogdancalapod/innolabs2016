@@ -1,0 +1,24 @@
+<section class="media">
+  <h1 class="right">Media appearances</h1>
+  {% if page.title != 'Media' %}
+    {% assign listLimit = 3 %}
+  {% endif %}
+  
+  {% for article in site.data.articles limit: listLimit %}
+  <article>
+    <div class="noPadding">
+      <img src="{{ article.photo }}">
+    </div>
+    <h2>{{ article.title }}</h2>
+    <span>{{ article.publication }}</span>
+    
+    <a href="{{ article.url }}" target="_blank">
+      <button>READ</button>
+    </a>
+  </article>
+  {% endfor %}
+  <br><br><br><br>
+  {% if page.title != 'Media' %}
+    <a href="/media"><button>SEE ALL</button></a>
+  {% endif %}
+</section>

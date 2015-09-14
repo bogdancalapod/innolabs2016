@@ -1,0 +1,6 @@
+.grid figure details,
+.grid figure
+{
+  width: calc(100vw / 6);
+  height: calc(100vw / 6);
+}

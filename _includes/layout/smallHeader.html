@@ -1,0 +1,18 @@
+<div id="header" class="small">
+  {% include layout/nav.html %}
+  
+  <div id="search">
+    <input type="text" id="searchBox">
+    <img onclick="toggleSearchBox();"
+         src="{{ site.data.var.icons }}/search.svg">
+  </div>
+  
+  <a href="{{ site.data.var.root }}">
+  <img class="logo"
+       src="{{ site.data.var.img }}/logo/white.svg">
+  </a>
+  
+  <h2>{{ page.title }} </h2>
+ 
+  
+</div>

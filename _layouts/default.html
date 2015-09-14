@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  <title> {% if page.title %} {{ page.title }} | {% endif %} Innovation Labs 2016</title>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+   {% if page.customCSS == 'true' %}
+    <link rel="stylesheet" href="/assets/css/pages/{{ page.title }}.css">
+  {% endif %}
+  
+  <link rel="stylesheet" href="/assets/css/res/1440.css" media="screen and (max-width:1440px)"/>
+  <link rel="stylesheet" href="/assets/css/res/1024.css" media="screen and (max-width:1024px)"/>
+  <link rel="stylesheet" href="/assets/css/res/768.css" media="screen and (max-width:768px)"/>
+  <link rel="stylesheet" href="/assets/css/res/360.css" media="screen and (max-width:485px)"/>
+  <link rel="stylesheet" href="/assets/css/font/font.css" />
+  
+ 
+  
+</head>
+<body>
+  {% if page.smallHeader == 'true' %}
+    {% include layout/smallHeader.html %}
+  {% else %}
+    {% include layout/bigHeader.html %}
+  {% endif %}
+  
+    {{ content }}
+  
+  <!--JS-->
+  <script src="/assets/js/ui/general.js"></script>
+  <script src="/assets/js/lib/ajaxRequest.js"></script>
+  <script src="/assets/js/data/search/search.js"></script>
+  
+  {% if page.jsIncludes %}
+    {% for js in page.jsIncludes %}
+      <script src="{{ site.data.var.js }}{{ js }}"></script>
+    {% endfor %}
+  {% endif %}
+ 
+<footer>
+  <img src="{{ site.data.var.img }}/logo/blue.svg">
+  <img src="{{ site.data.var.icons }}/footer.svg">
+</footer>
+</body>
+</html>

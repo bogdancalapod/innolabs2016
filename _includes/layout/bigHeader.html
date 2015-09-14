@@ -1,0 +1,56 @@
+<div id="header">
+  {% include layout/nav.html %}
+  
+  <div id="search">
+    <input type="text" id="searchBox" >
+    <img onclick="toggleSearchBox();"
+         src="{{ site.data.var.icons }}/search.svg">
+    <img onclick="setTimeout(function () { search(); }, 400); toggleSearchBox();" class="blueSearch"
+         src="{{ site.data.var.icons }}/searchBlue.svg">
+  </div>
+  
+  <a href="{{ site.data.var.root }}">
+  <img class="logo"
+       src="{{ site.data.var.img }}/logo/white.svg">
+  </a>
+  
+  <ul id="hero">
+    <a href="{{ site.data.var.root }}/about/">
+      <li>
+        <img src="{{ site.data.var.icons }}/idea.svg">
+      </li>
+    </a>
+    
+      <li id="bullets">
+        <img src="{{ site.data.var.icons }}/bullets.svg">
+      </li>
+    
+    <a href="{{ site.data.var.root }}/teams/">
+      <li>
+        <img src="{{ site.data.var.icons }}/prototype.svg">
+      </li>
+    </a>
+    
+      <li id="bullets">
+        <img src="{{ site.data.var.icons }}/bullets.svg">
+      </li>
+    
+    <a href="{{ site.data.var.root }}/mentors/">
+      <li>
+        <img src="{{ site.data.var.icons }}/mentoring.svg">
+      </li>
+    </a>
+
+      <li id="bullets">
+        <img src="{{ site.data.var.icons }}/bullets.svg">
+      </li>
+    
+    <a href="{{ site.data.var.root }}/teams/past/">
+      <li>
+        <img src="{{ site.data.var.icons }}/success.svg">
+      </li>
+    </a>
+  </ul>
+  
+  <button>REGISTER NOW</button>
+</div>

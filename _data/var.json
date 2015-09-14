@@ -1,0 +1,19 @@
+{
+  
+  'root':'http://ilabs.bogdancalapod.com',
+  
+  'img' : '/assets/img/assets',
+  'photos' : '/assets/img/photos',
+  'articlePhotos' : '/assets/img/photos/articles',
+  'icons' : '/assets/img/assets/icons',
+  'partners' : '/assets/img/partners',
+  'mentors': '/assets/img/mentors',
+  'teams': '/assets/img/teams',
+  
+  'js': '/assets/js',
+  
+  'twLink' : '#',
+  'fbLink' : 'http://www.facebook.com/ILabsRo',
+  'vimLink' : '#',
+  'fkLink' : '#'
+}

@@ -1,0 +1,6 @@
+- name: 'CODA Footprint'
+  logo: 'coda.svg'
+  desc: 'Transparency & instant reaction to zero-day security threats by monitoring your critical application’s security footprintransparency & instant reaction to zero-day security threats by monitoring your critical application’s security footprint'
+- name: 'Waldo'
+  logo: 'waldo.svg'
+  desc: 'This is a desc'

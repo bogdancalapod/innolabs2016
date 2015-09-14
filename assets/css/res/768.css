@@ -1,0 +1,130 @@
+div#header img.logo
+{
+  width: 80vw;
+}
+
+div.small#header h2
+{
+  top: 30vh;
+  font-size: 30px;
+}
+ul#hero li#bullets
+{
+  display: none;
+}
+
+ul#hero li
+{
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+ul#hero
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  text-align: center;
+}
+
+section > div:first-child img
+{
+  display: none;
+}
+
+section div
+{
+  margin-right: auto;
+display: block;
+width: 350px;
+margin-left: 200px;
+}
+
+section div p
+{
+  width: auto;
+}
+
+section div#title h1
+{
+  text-align: left;
+  margin: 0;
+}
+
+section .grid.small
+{
+  float: left;
+}
+
+section.pastSuccess
+{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+section.pastSuccess div
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.pastSuccess .grid.small
+{
+  float: none;
+  margin-left: -100px;
+}
+
+section.media h1.right
+{
+  text-indent: 0;
+}
+
+section.media article
+{
+  width: 100%;
+}
+
+section.media article img
+{
+  height: auto;
+}
+
+section.social
+{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+section.social div
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.social div.fb-page {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+}
+
+section.partners
+{
+  width: 70vw;
+}
+
+
+div.searchResult
+{
+  width: 270px;
+}
+
+div.gallery,
+.galleryTitle
+{
+  display: none;
+}

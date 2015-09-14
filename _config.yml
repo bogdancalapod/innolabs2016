@@ -1,0 +1,9 @@
+page_gen:
+  - data: '2015'
+    template: 'teams'
+    name: 'name'
+    dir: 'teams'
+  - data: '2014'
+    template: 'teams'
+    name: 'name'
+    dir: 'teams'

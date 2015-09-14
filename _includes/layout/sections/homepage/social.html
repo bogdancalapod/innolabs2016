@@ -1,0 +1,34 @@
+<section class="twoPanes social">
+  <div>
+    {% include var/facebook.html %}
+  </div>
+  <div id="title" class="right">
+    <h1>Let's get social</h1>
+    <p>Follow us on social media to get the latest updates and greatest tips on how to take your startup venture to the next level!</p>
+    
+    <div class="socialIcons">
+      <a href="{{ site.data.var.twLink }}">
+        <img src="{{ site.data.var.icons }}/twitter.svg">
+      </a>
+      <a href="{{ site.data.var.fbLink }}">
+        <img src="{{ site.data.var.icons }}/facebook.svg">
+      </a>
+      <a href="{{ site.data.var.vimLink }}">
+        <img src="{{ site.data.var.icons }}/vimeo.svg">
+      </a>
+      <a href="{{ site.data.var.fkLink }}">
+        <img src="{{ site.data.var.icons }}/flickr.svg">
+      </a>
+    </div>
+    
+    <p>Have any questions about the program ? Shoot us a message and we'll get to you shortly!</p>
+    
+    <form onsubmit="return sendMail(this);">
+      <input type="text" placeholder="Your name" id="name">
+      <input type="text" placeholder="Your e-mail" id="email">
+      <textarea placeholder="Your message" id="message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+    
+  </div>
+</section>

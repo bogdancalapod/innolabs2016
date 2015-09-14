@@ -1,0 +1,87 @@
+[
+    {
+        "category": "a project by",
+        "partners": [
+          {
+            "image": "tl.svg",
+            "url": "http://www.tech-lounge.ro"
+          }
+        ]
+    },
+    {
+        "category": "powered by",
+        "partners": [
+          {
+            "image": "orange.svg",
+            "url": "http://www.orange.ro"
+          },
+          {
+            "image": "carrefour.svg",
+            "url": "http://www.carrefour.ro"
+          },
+          {
+            "image": "youthspark.svg",
+            "url": "http://www.microsoft.ro"
+          },
+          {
+            "image": "raf.svg",
+            "url": "http://www.raf.ro"
+          }
+        ]
+    },
+    {
+        "category": "co-organizers",
+        "partners": [
+          {
+            "image": "techsylvania.svg",
+            "url": "#"
+          },
+          {
+            "image": "spherik.svg",
+            "url": "#"
+          },
+          {
+            "image": "anis.svg",
+            "url": "#"
+          }
+        ]
+    },
+    {
+        "category": "partners",
+        "partners": [
+          {
+            "image": "ixia.svg",
+            "url": "#"
+          },
+          {
+            "image": "fotonation.svg",
+            "url": "#"
+          },
+          {
+            "image": "adobe.svg",
+            "url": "#"
+          },
+          {
+            "image": "intel.svg",
+            "url": "#"
+          },
+          {
+            "image": "ea.svg",
+            "url": "#"
+          },
+          {
+            "image": "microchip.svg",
+            "url": "#"
+          },
+          {
+            "image": "cisco.svg",
+            "url": "#"
+          },
+          {
+            "image": "onyx.svg",
+            "url": "#"
+          }
+        ]
+    }
+  
+]

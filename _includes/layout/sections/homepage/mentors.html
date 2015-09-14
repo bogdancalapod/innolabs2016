@@ -1,0 +1,28 @@
+<section>
+  {% if page.title != 'Mentors' %}
+    <h1 class="right">Meet the mentors</h1>
+    {% assign listLimit = 12 %}
+  {% endif %}
+  
+  <section class="grid">
+    {% for mentor in site.data.mentors limit: listLimit %}
+    <figure>
+      <details open>
+        <summary></summary>
+        <h2>{{ mentor.name }}</h2>
+        <p>{{ mentor.position }} at {{ mentor.company }}</p>
+        {% if mentor.email %}
+        <a href="{{ mentor.email }}">
+          <img src="{{ site.data.var.icons }}/mail.svg">
+        </a>
+        {% endif %}
+      </details>
+      <div class="img" style="background-image: url({{ site.data.var.mentors }}/{{ mentor.name | downcase | replace: ' ',''  }}.jpg)"></div>
+    </figure>
+    {% endfor %}
+  </section>
+  <br><br><br>
+  {% if page.title != 'Mentors' %}
+    <button>See all mentors</button>
+  {% endif %}
+</section>

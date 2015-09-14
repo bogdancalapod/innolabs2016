@@ -1,0 +1,6 @@
+---
+permalink: .htaccess
+---
+RewriteEngine On
+
+RewriteRule ^/mentors/? /pages/mentors.html [L]
